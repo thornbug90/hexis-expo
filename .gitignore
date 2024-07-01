@@ -1,0 +1,12 @@
+node_modules
+# Keep environment variables out of version control
+.env
+data.json
+docker-compose.ym
+.DS_Store
+prisma/migrations
+prisma/generated
+yarn.lock
+.idea
+.history/
+coverage/
