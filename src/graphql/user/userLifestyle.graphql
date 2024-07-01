@@ -1,0 +1,8 @@
+query userLifestyle {
+  user {
+    lifestyleActivity
+    sleepTime
+    wakeTime
+    totalActivityDuration
+  }
+}

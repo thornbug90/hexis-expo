@@ -1,0 +1,124 @@
+mutation addMeal($input: MealInput!) {
+  addMeal(input: $input) {
+    date
+    workouts {
+      id
+      intensity
+      activity {
+        id
+        name
+        slug
+      }
+      start
+      end
+      slot
+      key
+      competition
+      recurring
+      source
+      status
+      confirmed
+      externalReference
+      calories
+      intraFuelling
+      intraFuellingPrompt
+      intraFuellingMeal {
+        mealName
+        time
+        carbCode
+        energy
+        carb
+        fat
+        protein
+        mealType
+        mealSubType
+        mealVerification {
+          id
+          skipped
+          carbCode
+          time
+          energy
+          mealNutritionId
+        }
+      }
+      startTime
+      utcOffset
+      description
+      title
+    }
+    meals {
+      mealName
+      time
+      carbCode
+      energy
+      carb
+      fat
+      protein
+      mealType
+      mealSubType
+      mealVerification {
+        id
+        skipped
+        carbCode
+        time
+        energy
+        mealNutritionId
+      }
+    }
+    macros {
+      energyCurrent
+      energy
+      carb
+      fat
+      protein
+      carbsCurrent
+      fatCurrent
+      proteinCurrent
+    }
+    carbRanges {
+      mainRange {
+        lowMin
+        lowMax
+        medMin
+        medMax
+        highMin
+        highMax
+      }
+      snackRange {
+        lowMin
+        lowMax
+        medMin
+        medMax
+        highMin
+        highMax
+      }
+    }
+    fuelCoach
+    intraFuellingRecommendations {
+      workoutId
+      unit
+      title
+      message
+      details
+    }
+    dayNotes {
+      id
+      title
+      body
+      type
+      createdAt
+      updatedAt
+      dayNoteDay
+      utcOffset
+      clientId
+      coachId
+      alertNotification
+    }
+    dayNutrition {
+      id
+      userId
+      day
+      carbsPerKg
+    }
+  }
+}

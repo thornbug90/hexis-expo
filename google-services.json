@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "233325199185",
+    "project_id": "hexis-notifications",
+    "storage_bucket": "hexis-notifications.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233325199185:android:a0eb706f402a0179791d70",
+        "android_client_info": {
+          "package_name": "live.hexis.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnEaNCnas7z-e6rFls5Tv8YBjDW1B1kKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

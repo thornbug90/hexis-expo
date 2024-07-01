@@ -1,0 +1,13 @@
+query userBiometrics {
+  user {
+    weight
+    weightUnit
+    height
+    dob
+    heightUnit
+    sex
+    goal
+    genderIdentity
+    targetWeight
+  }
+}

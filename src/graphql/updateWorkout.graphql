@@ -1,0 +1,19 @@
+mutation updateWorkout($id: ID!, $input: UpdateWorkoutInput!) {
+  updateWorkout(id: $id, input: $input) {
+    id
+    activity {
+      id
+    }
+    intensity
+    slot
+    start
+    end
+    utcOffset
+    key
+    competition
+    intraFuelling
+    intraFuellingPrompt
+    source
+    status
+  }
+}

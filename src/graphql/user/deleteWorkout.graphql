@@ -1,0 +1,14 @@
+mutation deleteWorkout($id: ID!) {
+  deleteWorkout(id: $id) {
+    id
+    activity {
+      id
+    }
+    intensity
+    slot
+    start
+    end
+    key
+    competition
+  }
+}

@@ -1,0 +1,50 @@
+query search(
+  $nutriticsObjType: NUTRITICS_OBJ_TYPE
+  $keywords: String
+  $userFoodOnly: Boolean
+  $mealType: MEAL_TYPE
+) {
+  search(
+    nutriticsObjType: $nutriticsObjType
+    keywords: $keywords
+    userFoodOnly: $userFoodOnly
+    mealType: $mealType
+  ) {
+    id
+    name
+    description
+    type
+    quantity {
+      name
+      unit
+      value
+    }
+    portions {
+      name
+      unit
+      value
+    }
+    nutrients {
+      name
+      slug
+      unit
+      value
+      nutrients {
+        name
+        slug
+        unit
+        value
+        nutrients {
+          name
+          slug
+          unit
+          value
+        }
+      }
+    }
+    tags {
+      name
+      checked
+    }
+  }
+}

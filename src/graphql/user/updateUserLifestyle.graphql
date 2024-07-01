@@ -1,0 +1,8 @@
+mutation updateUserLifestyle($input: UpdateUserInput!) {
+  updateUser(input: $input) {
+    lifestyleActivity
+    totalActivityDuration
+    sleepTime
+    wakeTime
+  }
+}

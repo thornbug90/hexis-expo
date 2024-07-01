@@ -1,0 +1,9 @@
+query liveGraphByDate($date: DateTime!) {
+  liveGraph(date: $date) {
+    graph {
+      data
+      time
+    }
+    predictedEnd
+  }
+}

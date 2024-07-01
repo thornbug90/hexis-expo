@@ -1,0 +1,8 @@
+query GetConfig($input: GetConfigInput) {
+  getConfig(input: $input) {
+    SupabaseAnonKey
+    latestVersion
+    requireUpdate
+    updateLink
+  }
+}

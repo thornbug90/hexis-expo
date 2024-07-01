@@ -1,0 +1,13 @@
+query wearableSources {
+  wearableSources {
+    id
+    userId
+    name
+    description
+    authorizationUrl
+    status
+    image
+    platform
+    updatedAt
+  }
+}

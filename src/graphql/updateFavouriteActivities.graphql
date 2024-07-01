@@ -1,0 +1,6 @@
+mutation updateFavouriteActivities($input: [FavouriteActivityInput!]!) {
+  updateFavouriteActivities(input: $input) {
+    activityId
+    primary
+  }
+}

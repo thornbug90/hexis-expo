@@ -1,0 +1,10 @@
+mutation verifyMeal($input: VerifyMealInput!) {
+  verifyMeal(input: $input) {
+    id
+    time
+    carbCode
+    skipped
+    energy
+    mealNutritionId
+  }
+}

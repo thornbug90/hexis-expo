@@ -1,0 +1,5 @@
+mutation addNotificationToken($token: String!) {
+  addNotificationToken(token: $token) {
+    token
+  }
+}

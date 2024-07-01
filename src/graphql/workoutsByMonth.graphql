@@ -1,0 +1,26 @@
+query workoutsByMonth($date: DateTime!) {
+  workoutsByMonth(date: $date) {
+    id
+    activity {
+      id
+    }
+    start
+    end
+    utcOffset
+    slot
+    key
+    competition
+    recurring
+    intensity
+    source
+    status
+    startTime
+    confirmed
+    externalReference
+    calories
+    title
+    description
+    intensityRPE
+    powerAverage
+  }
+}

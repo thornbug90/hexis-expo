@@ -1,0 +1,18 @@
+mutation discardAllWorkoutsOnGivenDate(
+  $input: DiscardAllWorkoutsOnGivenDateInput!
+) {
+  discardAllWorkoutsOnGivenDate(input: $input) {
+    id
+    activity {
+      id
+    }
+    intensity
+    slot
+    start
+    end
+    key
+    competition
+    source
+    status
+  }
+}

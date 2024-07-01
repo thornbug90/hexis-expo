@@ -1,0 +1,13 @@
+query getCoachNotes($coachId: ID!, $clientId: ID!) {
+  getCoachNotes(coachId: $coachId, clientId: $clientId) {
+    id
+    coachId
+    clientId
+    title
+    body
+    createdAt
+    updatedAt
+    dayNoteDay
+    type
+  }
+}

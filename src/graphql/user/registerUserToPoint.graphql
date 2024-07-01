@@ -1,0 +1,46 @@
+mutation registerUserToPoint($input: RegisterUserToPointInput!) {
+  registerUserToPoint(input: $input) {
+    id
+    mealplan {
+      meals {
+        id
+        time
+        mealName
+        dayName
+        mealType
+        mealSubType
+        mealplanId
+      }
+    }
+    favouriteActivities {
+      activityId
+      primary
+    }
+    email
+    dob
+    firstName
+    lastName
+    onboardingComplete
+    newsletterSubscriber
+    goal
+    weight
+    weightUnit
+    height
+    heightUnit
+    targetWeight
+    sex
+    genderIdentity
+    lifestyleActivity
+    sleepTime
+    wakeTime
+    totalActivityDuration
+    created
+    hasActiveSubscription
+    customerId
+    pointId
+    pointRefreshToken
+    wearableId
+    Efficiency
+    RMR
+  }
+}

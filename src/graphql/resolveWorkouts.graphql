@@ -1,0 +1,17 @@
+mutation resolveWorkouts($input: ResolveWorkoutsInput!) {
+  resolveWorkouts(input: $input) {
+    id
+    activity {
+      id
+    }
+    intensity
+    slot
+    start
+    utcOffset
+    end
+    key
+    competition
+    source
+    status
+  }
+}

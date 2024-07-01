@@ -1,0 +1,6 @@
+query mealInspiration($mealType: MEAL_TYPE, $carbCode: CARB_CODE) {
+  mealInspiration(mealType: $mealType, carbCode: $carbCode) {
+    images
+    messages
+  }
+}

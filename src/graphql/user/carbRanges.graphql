@@ -1,0 +1,20 @@
+query carbRange {
+  carbRange {
+    mainRange {
+      highMax
+      highMin
+      medMax
+      medMin
+      lowMax
+      lowMin
+    }
+    snackRange {
+      highMax
+      highMin
+      medMax
+      medMin
+      lowMax
+      lowMin
+    }
+  }
+}

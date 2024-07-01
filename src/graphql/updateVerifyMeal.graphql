@@ -1,0 +1,10 @@
+mutation updateVerifyMeal($id: ID!, $input: UpdateVerifyMealInput!) {
+  updateVerifyMeal(id: $id, input: $input) {
+    id
+    time
+    carbCode
+    skipped
+    energy
+    mealNutritionId
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "cli": {
+    "version": ">= 0.43.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "SUPABASE_URL": "https://zbbwlvunazmamwsjhwrv.supabase.co",
+        "SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTY0NDE1OTAzMSwiZXhwIjoxOTU5NzM1MDMxfQ.T5VdyUSMPE8xUMD9t5Vk2_76oEL4JpyCZr4rre27SKA",
+        "API_ENDPOINT": "https://graphql-api-backend.onrender.com",
+        "ENVIRONMENT": "staging",
+        "SENTRY_DSN": "https://ba9ed86ecba3441bacd1b63babf02bc4@o1146252.ingest.sentry.io/6214758",
+        "SEGMENT_WRITE_KEY": "kswA2YOGh3EO1CKh9wQvo945CAEbkOPI",
+        "WEBSITE_URL": "https://dev-hexis-web-app.onrender.com",
+        "POINT_CLIENT_ID": "F-CJUO3qjY9cUWfbVBzK5KT4sFhZqJghQeVO",
+        "POINT_CLIENT_SECRET": "oIVR_dy1S7M15u0M6Ik5mvKqkgMLr8OUc2Gy"
+      },
+      "channel": "staging"
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {}
+    },
+    "production": {
+      "env": {
+        "SUPABASE_URL": "https://pddqfcrssmricbmqirye.supabase.co",
+        "SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBkZHFmY3Jzc21yaWNibXFpcnllIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY0NDg0MzI4MiwiZXhwIjoxOTYwNDE5MjgyfQ.xGtc6C5fTHjpTVFPxrEI0OpKpWSNatNA1dTuDilFnT4",
+        "API_ENDPOINT": "https://prod-graphql-api.onrender.com",
+        "ENVIRONMENT": "production",
+        "SENTRY_DSN": "https://ba9ed86ecba3441bacd1b63babf02bc4@o1146252.ingest.sentry.io/6214758",
+        "SEGMENT_WRITE_KEY": "BYnN9mYG4Iaq3mERz2SqR5SGwJdioKwD",
+        "WEBSITE_URL": "https://app.hexis.live",
+        "POINT_CLIENT_ID": "F-CJUO3qjY9cUWfbVBzK5KT4sFhZqJghQeVO",
+        "POINT_CLIENT_SECRET": "oIVR_dy1S7M15u0M6Ik5mvKqkgMLr8OUc2Gy"
+      },
+      "channel": "production",
+      "android": {
+        "image": "latest"
+      }
+    }
+  }
+}

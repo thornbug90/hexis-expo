@@ -1,0 +1,13 @@
+query getAthleteNotes($athleteId: ID!, $date: DateTime!) {
+  getAthleteNotes(athleteId: $athleteId, date: $date) {
+    id
+    coachId
+    clientId
+    title
+    body
+    createdAt
+    updatedAt
+    dayNoteDay
+    type
+  }
+}

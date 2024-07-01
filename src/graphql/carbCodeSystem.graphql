@@ -1,0 +1,8 @@
+query carbCodeSystem {
+  carbCodeSystem {
+    carbCode
+    type
+    images
+    messages
+  }
+}

@@ -1,0 +1,11 @@
+mutation updateMealplan($input: UpdateMealplanInput!, $clientId: String) {
+  updateMealplan(input: $input, clientId: $clientId) {
+    meals {
+      time
+      mealName
+      dayName
+      mealType
+      mealSubType
+    }
+  }
+}

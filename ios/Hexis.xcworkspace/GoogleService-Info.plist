@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyB7nrLeKAT6CQmmQGGTrExXDfvo_T0yzdY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>233325199185</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>live.hexis.app</string>
+	<key>PROJECT_ID</key>
+	<string>hexis-notifications</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hexis-notifications.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:233325199185:ios:625dbc65477b965d791d70</string>
+	<key>DATABASE_URL</key>
+	<string>https://hexis-notifications-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

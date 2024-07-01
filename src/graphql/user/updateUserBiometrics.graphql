@@ -1,0 +1,13 @@
+mutation updateUserBiometrics($input: UpdateUserInput!) {
+  updateUser(input: $input) {
+    weight
+    weightUnit
+    height
+    dob
+    heightUnit
+    sex
+    goal
+    genderIdentity
+    targetWeight
+  }
+}

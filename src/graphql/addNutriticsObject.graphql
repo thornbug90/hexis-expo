@@ -1,0 +1,35 @@
+mutation addNutriticsObject($input: NutriticsObjectInput!) {
+  addNutriticsObj(input: $input) {
+    description
+    id
+    name
+    nutrients {
+      name
+      nutrients {
+        name
+        slug
+        unit
+        value
+      }
+      slug
+      unit
+      value
+    }
+    portions {
+      name
+      unit
+      value
+    }
+    quantity {
+      name
+      unit
+      value
+    }
+    tags {
+      checked
+      name
+    }
+    type
+    liquid
+  }
+}

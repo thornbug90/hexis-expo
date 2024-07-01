@@ -1,0 +1,3 @@
+mutation removeNotificationToken($token: String!) {
+  removeNotificationToken(token: $token)
+}

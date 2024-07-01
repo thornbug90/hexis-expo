@@ -1,0 +1,13 @@
+mutation UpdateWearableStatus($input: UpdateWearableStatusInput!) {
+  updateWearableSource(input: $input) {
+    id
+    userId
+    name
+    description
+    image
+    authorizationUrl
+    status
+    platform
+    updatedAt
+  }
+}

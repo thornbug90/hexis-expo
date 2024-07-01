@@ -1,0 +1,16 @@
+mutation createRecurringWorkout($input: CreateWorkoutInput!) {
+  createRecurringWorkout(input: $input) {
+    id
+    activity {
+      id
+    }
+    intensity
+    slot
+    start
+    end
+    utcOffset
+    key
+    competition
+    recurring
+  }
+}

@@ -1,0 +1,16 @@
+query macroMessages {
+  macroMessages {
+    protein {
+      short
+      long
+    }
+    carbs {
+      short
+      long
+    }
+    fat {
+      short
+      long
+    }
+  }
+}

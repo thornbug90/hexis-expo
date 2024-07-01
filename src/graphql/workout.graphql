@@ -1,0 +1,26 @@
+query workoutsById($id: ID!) {
+  workout(id: $id) {
+    id
+    activity {
+      id
+    }
+    intensity
+    slot
+    start
+    utcOffset
+    end
+    key
+    competition
+    intraFuelling
+    intraFuellingPrompt
+    recurring
+    source
+    status
+    startTime
+    confirmed
+    externalReference
+    calories
+    intensityRPE
+    powerAverage
+  }
+}

@@ -1,0 +1,5 @@
+mutation createWorkoutWearable($input: [CreateWorkoutWearableInput]!) {
+  createWorkoutWearable(input: $input) {
+    id
+  }
+}
